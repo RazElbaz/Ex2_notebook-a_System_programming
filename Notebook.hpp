@@ -9,9 +9,9 @@ namespace ariel{
     public:
         Notebook();
         void write(unsigned int Page, unsigned int Row, unsigned int Column, Direction direction, string const &text);
-        static string read(unsigned int Page, unsigned int Row, unsigned int Column, Direction direction, int Length);
-        void erase(unsigned int Page, unsigned int Row, unsigned int Column, Direction direction, int Length);
-        void show( int Page);
+        static string read(unsigned int Page, unsigned int Row, unsigned int Column, Direction direction, unsigned int Length);
+        void erase(unsigned int Page, unsigned int Row, unsigned int Column, Direction direction,unsigned int Length);
+        void show(unsigned int Page);
     };
 }
 

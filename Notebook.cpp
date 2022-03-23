@@ -6,7 +6,7 @@ using ariel::Direction;
 namespace ariel{
     Notebook::Notebook(){}
     void Notebook::write(unsigned int Page, unsigned int Row, unsigned int Column, Direction direction, string const &text){}
-    string Notebook::read(unsigned int Page, unsigned int Row, unsigned int Column, Direction direction, int Length){ return "";}
-    void Notebook::erase(unsigned int Page, unsigned int Row, unsigned int Column, Direction direction, int Length){}
-    void Notebook::show( int page){}
+    string Notebook::read(unsigned int Page, unsigned int Row, unsigned int Column, Direction direction, unsigned int Length){ return "";}
+    void Notebook::erase(unsigned int Page, unsigned int Row, unsigned int Column, Direction direction, unsigned int Length){}
+    void Notebook::show( unsigned int page){}
 }
